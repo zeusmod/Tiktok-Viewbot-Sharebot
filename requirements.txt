@@ -1,4 +1,4 @@
-pypiele
+pyghoster
 ssl
 requests
 hashlib
