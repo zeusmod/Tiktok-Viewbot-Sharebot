@@ -1,4 +1,4 @@
-pyghoster
+pyjoul
 ssl
 requests
 hashlib
