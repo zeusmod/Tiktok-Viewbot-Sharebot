@@ -1,4 +1,4 @@
-pyjoul
+pyminor
 ssl
 requests
 hashlib
